@@ -21,7 +21,6 @@
             <div class="logo-container">
                 <a href="#">CINE</a>
             </div>
-
             <nav>
                 <ul>
                     <button><a href="#">Sobre</a></button>
@@ -63,8 +62,8 @@
                 EXPLORE NOSSO CATÁLOGO DE FILMES
             </h1>
             <div class="input">
-                <input type="text" placeholder="Pesquisar por titulo...">
-                <button>
+                <input type="text" placeholder="Pesquisar por titulo..." id="scnd-input">
+                <button id="second-search-button">
                     <img src="./assets//search-svgrepo-com.svg" alt="icone de loopa">
                 </button>
             </div>
@@ -74,16 +73,19 @@
             
         </div>
     </div> <!--container principal-->
-
-    <div class="card-film hide">
-        <img src="" alt="">
-        <div class="content">
-            <button id="closes-card">&times;</button>
-            <h1></h1>
-            <p></p>
-            <span></span>
-        </div>
-    </div>    
-   
+    <div class="bg-dark hide">
+        <div class="card-film hide">
+            <img src="" alt="">
+            <div class="content">
+                <button id="closes-card">&times;</button>
+                <h1></h1>
+                <p></p>
+                <p id="released"></p>
+                <span></span>
+            </div>
+        </div>    
+       
+    </div>
+    
 </body>
 </html>

@@ -84,7 +84,8 @@ header .logo-container a{
 
 .input-wrapper {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    
     gap: 1rem;
 }
 .input-wrapper input {
@@ -192,11 +193,11 @@ header .logo-container a{
     opacity: 0;
 }
 .card-film{
-    position: relative;
+    position: fixed;
     gap: 2rem;
     display: flex;
-    position: absolute;
-    top: 4rem;
+   
+    top: 14rem;
     right: 0;
     left: 0;
     width: min(63rem, 88%);
@@ -241,4 +242,18 @@ header .logo-container a{
         background: black;
         width: 100%;
     }
+}
+.input {
+    display: flex;
+    align-items: center;
+    >button{
+        >img{
+            width: 2.5rem;
+        }
+    }
+}
+.bg-dark {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.492);
 }
