@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/main.js" defer type="module" ></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <title>Films for u</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <a href="#">CINE</a>
+            </div>
+
+            <nav>
+                <ul>
+                    <button><a href="#">Sobre</a></button>
+                    <button><a href="#">Filmes</a></button>
+                    <button><a href="#">Assista em casa</a></button>
+                    <button><a href="#">Loja</a></button>
+                </ul>
+            </nav>
+
+            <div class="input-wrapper">
+                <label class="sr-only" for="first-input">pesquise por um filme</label>
+                <input type="text" id="first-input" placeholder="Buscar...">
+                <button id="first-search-film"><img src="./assets/search-svgrepo-com.svg" alt=""></button>
+                <button class="social-media-icons">
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="./assets/youtube-round-svgrepo-com.svg" alt="youtube icon">
+                    </a>
+                </button>
+                <button class="social-media-icons">
+                    <a href="https://facebook.com">
+                        <img src="./assets/facebook-svgrepo-com.svg" alt="facebook icon">
+                    </a>
+                </button>
+                <button class="social-media-icons">
+                    <a href="https://twitter.com">
+                        <img src="./assets/twitter-round-svgrepo-com.svg" alt="twitter icon">
+                    </a>
+                </button>
+                <button class="social-media-icons">
+                    <a href="https://instagran.com">
+                        <img src="./assets/instagram-round-svgrepo-com.svg" alt="instagram icon">
+                    </a>
+                </button>
+            </div>
+        </header>
+
+        <div class="main-search">
+            <h1>
+                EXPLORE NOSSO CATÁLOGO DE FILMES
+            </h1>
+            <div class="input">
+                <input type="text" placeholder="Pesquisar por titulo...">
+                <button>
+                    <img src="./assets//search-svgrepo-com.svg" alt="icone de loopa">
+                </button>
+            </div>
+
+        </div>
+        <div class="secao">
+            
+        </div>
+    </div> <!--container principal-->
+
+    <div class="card-film hide">
+        <img src="" alt="">
+        <div class="content">
+            <button id="closes-card">&times;</button>
+            <h1></h1>
+            <p></p>
+            <span></span>
+        </div>
+    </div>    
+   
+</body>
+</html>
